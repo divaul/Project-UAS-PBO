@@ -15,7 +15,7 @@ public class Item {
     private int tahunCetak;
     private String kategori;
 
-    public Item(String judul, String penerbit, int tahunCetak, String kategori) {
+    public Item(String judul, String namaPengarang, String penerbit, int tahunCetak, String kategori) {
         this.judul = judul;
         this.penerbit = penerbit;
         this.namaPengarang = namaPengarang;
@@ -33,7 +33,7 @@ public class Item {
     public String toString() {
         return "Judul: " + judul + "\n" +
                "Penerbit: " + penerbit + "\n" +
-               "Nama Pengarang: " + namaPengarang +
+               "Nama Pengarang: " + namaPengarang + "\n" +
                "Tahun Cetak: " + tahunCetak + "\n" +
                "Kategori: " + kategori;
     }

@@ -14,19 +14,9 @@ public class Buku extends Item {
      * @param args the command line arguments
      */
 
-    private String namaPengarang;
-
     public Buku(String judul, String namaPengarang, String penerbit, int tahunCetak, String kategori) {
         super(judul, penerbit, tahunCetak, kategori);
-        this.namaPengarang = namaPengarang;
-    }
-
-    public String getNamaPengarang() { return namaPengarang; }
-
-    @Override
-    public String toString() {
-        return super.toString() + "\n" +
-               "Nama Pengarang: " + namaPengarang;
+        
     }
 }
 

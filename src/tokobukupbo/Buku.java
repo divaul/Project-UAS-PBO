@@ -15,11 +15,7 @@ public class Buku extends Item {
      */
 
     public Buku(String judul, String namaPengarang, String penerbit, int tahunCetak, String kategori) {
-        super(judul, penerbit, tahunCetak, kategori);
+        super(judul, namaPengarang, penerbit, tahunCetak, kategori);
         
     }
 }
-
-
-    
-
